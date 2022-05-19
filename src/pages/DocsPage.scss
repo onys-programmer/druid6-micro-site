@@ -1,0 +1,8 @@
+.DocsPage {
+  display: grid;
+  grid-template-columns: 200px auto;
+  .container {
+    width: 60vw;
+    text-align: left;
+  }
+}
