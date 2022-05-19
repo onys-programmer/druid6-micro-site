@@ -96,7 +96,7 @@ Desktop Application입니다.
 
 Druid 팀에 메일도 보낼 수 있습니다.
 
-- 메일 주소
+- [yuparknji@gmail.com](mailto:yuparknji@gmail.com)
 
 ****Copyright and license****
 
