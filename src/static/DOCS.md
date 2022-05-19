@@ -83,6 +83,7 @@ Desktop Application입니다.
     - `query parameter` 방식과 `path variable` 방식은 url에 직접 입력해야합니다.
 - 웹 퍼포먼스 테스트
     - 입력한 URL로 웹 퍼포먼스를 테스트할 수 있습니다.
+    - 웹 퍼포먼스의 점수 계산 방식은 `https://web.dev/performance-scoring/?utm_source=lighthouse&utm_medium=lr`을 참고하세요.
     - 왼쪽 탭을 눌러 `desktop`, `mobile` 각각의 결과를 확인할 수 있습니다.
     - 구글, 네이버, 빙, 다음 등의 다른 사이트와 웹 퍼포먼스를 비교할 수 있습니다.
     - 웹 퍼포먼스를 향상시킬 수 있는 사항들을 추천합니다.
