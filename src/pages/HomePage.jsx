@@ -1,5 +1,4 @@
 import DownloadBtn from "./DownloadBtn";
-
 import "./HomePage.scss";
 
 export default function HomePage() {
@@ -11,7 +10,9 @@ export default function HomePage() {
             최고의 애플리케이션 모니터링 서비스,{" "}
             <span className="product-name">Druid6</span> 입니다.
           </div>
-          <DownloadBtn />
+          <div className="btn-div">
+            <DownloadBtn />
+          </div>
         </div>
       </header>
     </div>
