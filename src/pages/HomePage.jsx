@@ -21,7 +21,7 @@ export default function HomePage() {
         <div className="content-container">
           <div className="server-monitoring">
             <img src={networkImage} alt="network" className="images" />
-            <div className="server-monitoring-info">
+            <div className="feature-info">
               <p className="feature-name">서버 &amp; 네트워크 모니터링</p>
               <p className="feature-title">한 눈에 들어오는 실시간 서버 상태</p>
               <p className="feature-content">
@@ -33,7 +33,7 @@ export default function HomePage() {
           <hr />
           <div className="scenario-test">
             <img src={networkImage} alt="network" className="images" />
-            <div className="server-monitoring-info">
+            <div className="feature-info">
               <p className="feature-name">시나리오 테스트</p>
               <p className="feature-title">간편하고 빠른 시나리오 테스팅</p>
               <p className="feature-content">
@@ -44,6 +44,20 @@ export default function HomePage() {
             </div>
           </div>
           <hr />
+          <div className="server-monitoring">
+            <img src={networkImage} alt="network" className="images" />
+            <div className="feature-info">
+              <p className="feature-name">웹 퍼포먼스 테스트</p>
+              <p className="feature-title">
+                타 서버와 성능 비교 &amp;<br></br>시간 절감 가능 항목 추천
+              </p>
+              <p className="feature-content">
+                내 서버와 타 유명 사이트들의 성능 차이를 비교해보세요.<br></br>
+                시간 절감을 위한 추천 항목을 참고하여<br></br>
+                사용자 경험을 향상시킬 수도 있습니다.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
