@@ -19,6 +19,18 @@ export default function HomePage() {
       </header>
       <div className="content">
         <div className="content-container">
+          <div className="advantages">
+            <div className="advantage-edge">
+              <p>보안적으로 안전</p>
+            </div>
+            <div className="advantage-middle">
+              <p>오픈소스 프리웨어</p>
+            </div>
+            <div className="advantage-edge">
+              <p>간편한 사용성</p>
+            </div>
+          </div>
+          <hr />
           <div className="server-monitoring">
             <img src={networkImage} alt="network" className="images" />
             <div className="feature-info">

@@ -25,7 +25,7 @@
     font-size: 3rem;
     color: rgb(3, 102, 3);
   }
-  // 기능 소개 공통
+  // 컨텐츠
   .content {
     background-color: #eaeaff;
     font-family: "IBMPlexSansKR";
@@ -34,6 +34,23 @@
   .content-container {
     width: 970px;
     margin: 0 auto;
+  }
+  // 장점 3개 소개
+  .advantages {
+    padding-top: 130px;
+    padding-bottom: 50px;
+    display: flex;
+  }
+  .advantage-edge {
+    width: 32.3%;
+    height: 250px;
+    background-color: #ffffff;
+  }
+  .advantage-middle {
+    width: 32.3%;
+    margin: 0 3%;
+    height: 250px;
+    background-color: #ffffff;
   }
   // 서버 모니터링
   .server-monitoring {
