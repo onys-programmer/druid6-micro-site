@@ -25,4 +25,41 @@
     font-size: 3rem;
     color: rgb(3, 102, 3);
   }
+
+  .content {
+    background-color: #eaeaff;
+    font-family: "IBMPlexSansKR";
+  }
+
+  .content-container {
+    width: 970px;
+    margin: 0 auto;
+  }
+
+  .server-monitoring {
+    display: flex;
+    padding: 50px 0;
+  }
+
+  .images {
+    width: 390px;
+    height: 260px;
+  }
+
+  .server-monitoring-info {
+    padding: 20px;
+    text-align: left;
+  }
+
+  .feature-name {
+    color: rgb(3, 102, 3);
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .feature-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+  }
 }
