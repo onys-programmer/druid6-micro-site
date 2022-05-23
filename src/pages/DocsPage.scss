@@ -1,7 +1,9 @@
 .DocsPage {
+  height: 100%;
   display: grid;
   grid-template-columns: 200px auto;
   .container {
+    background-color: white;
     width: 60vw;
     text-align: left;
   }
