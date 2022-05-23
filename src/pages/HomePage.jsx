@@ -2,6 +2,9 @@ import DownloadBtn from "./DownloadBtn";
 import "./HomePage.scss";
 
 import networkImage from "../static/network.png";
+import GppGoodIcon from "@mui/icons-material/GppGood";
+import GroupsIcon from "@mui/icons-material/Groups";
+import MoodIcon from "@mui/icons-material/Mood";
 
 export default function HomePage() {
   return (
@@ -21,13 +24,16 @@ export default function HomePage() {
         <div className="content-container">
           <div className="advantages">
             <div className="advantage-edge">
-              <p>보안적으로 안전</p>
+              <GppGoodIcon />
+              <p className="advantage-title">보안적으로 안전</p>
             </div>
             <div className="advantage-middle">
-              <p>오픈소스 프리웨어</p>
+              <GroupsIcon />
+              <p className="advantage-title">오픈소스 프리웨어</p>
             </div>
             <div className="advantage-edge">
-              <p>간편한 사용성</p>
+              <MoodIcon />
+              <p className="advantage-title">간편한 사용성</p>
             </div>
           </div>
           <hr />

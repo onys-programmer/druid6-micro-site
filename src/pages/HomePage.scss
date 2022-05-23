@@ -44,13 +44,17 @@
   .advantage-edge {
     width: 32.3%;
     height: 250px;
-    background-color: #ffffff;
+    // background-color: #ffffff;
   }
   .advantage-middle {
     width: 32.3%;
     margin: 0 3%;
     height: 250px;
-    background-color: #ffffff;
+    // background-color: #ffffff;
+  }
+  .advantage-title {
+    font-size: 1.2rem;
+    font-weight: 600;
   }
   // 서버 모니터링
   .server-monitoring {
