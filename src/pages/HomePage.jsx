@@ -26,14 +26,36 @@ export default function HomePage() {
             <div className="advantage-edge">
               <GppGoodIcon />
               <p className="advantage-title">보안적으로 안전</p>
+              <p className="advantage-content">
+                Druid6는 사용자의 컴퓨터에 설치되어 독립적으로 작동합니다.
+                <br></br>
+                <br></br>
+                사용자의 PEM키가 별도의 서버에 저장되지 않기 때문에 보안에 대한
+                걱정 없이 안심하고 사용하실 수 있습니다.
+              </p>
             </div>
             <div className="advantage-middle">
               <GroupsIcon />
               <p className="advantage-title">오픈소스 프리웨어</p>
+              <p className="advantage-content">
+                오픈소스입니다. Druid6 서비스에 관심을 가지고 있는 사람들이 모여
+                함께 만들어나가는 프로젝트입니다.
+                <br></br>
+                <br></br>
+                MIT 라이센스를 따르고 있기 때문에, 비용에 대한 부담 없이 무료로
+                사용하실 수 있습니다.
+              </p>
             </div>
             <div className="advantage-edge">
               <MoodIcon />
               <p className="advantage-title">간편한 사용성</p>
+              <p className="advantage-content">
+                직관적인 UI로 디자인 되어 있습니다.
+                <br></br>
+                <br></br>
+                아직 모니터링 시스템에 익숙하지 않은 초보 개발자라도 손쉽게
+                사용할 수 있습니다.
+              </p>
             </div>
           </div>
           <hr />
@@ -48,7 +70,6 @@ export default function HomePage() {
               </p>
             </div>
           </div>
-          <hr />
           <div className="scenario-test">
             <img src={networkImage} alt="network" className="images" />
             <div className="feature-info">
@@ -61,7 +82,6 @@ export default function HomePage() {
               </p>
             </div>
           </div>
-          <hr />
           <div className="server-monitoring">
             <img src={networkImage} alt="network" className="images" />
             <div className="feature-info">
