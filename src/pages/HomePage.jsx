@@ -2,6 +2,8 @@ import DownloadBtn from "./DownloadBtn";
 import "./HomePage.scss";
 
 import networkImage from "../static/network.png";
+import scenarioImage from "../static/scenario.png";
+import webImage from "../static/web.png";
 import GppGoodIcon from "@mui/icons-material/GppGood";
 import GroupsIcon from "@mui/icons-material/Groups";
 import MoodIcon from "@mui/icons-material/Mood";
@@ -38,8 +40,8 @@ export default function HomePage() {
               <GroupsIcon />
               <p className="advantage-title">오픈소스 프리웨어</p>
               <p className="advantage-content">
-                오픈소스입니다. Druid6 서비스에 관심을 가지고 있는 사람들이 모여
-                함께 만들어나가는 프로젝트입니다.
+                소스 코드가 공개된 오픈소스입니다. Druid6 서비스에 관심을 가지고
+                있는 사람들이 모여 함께 만들어나가는 프로젝트입니다.
                 <br></br>
                 <br></br>
                 MIT 라이센스를 따르고 있기 때문에, 비용에 대한 부담 없이 무료로
@@ -71,7 +73,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="scenario-test">
-            <img src={networkImage} alt="network" className="images" />
+            <img src={scenarioImage} alt="network" className="images" />
             <div className="feature-info">
               <p className="feature-name">시나리오 테스트</p>
               <p className="feature-title">간편하고 빠른 시나리오 테스팅</p>
@@ -83,11 +85,11 @@ export default function HomePage() {
             </div>
           </div>
           <div className="server-monitoring">
-            <img src={networkImage} alt="network" className="images" />
+            <img src={webImage} alt="network" className="images" />
             <div className="feature-info">
               <p className="feature-name">웹 퍼포먼스 테스트</p>
               <p className="feature-title">
-                타 서버와 성능 비교 &amp;<br></br>시간 절감 가능 항목 추천
+                타 웹페이지와 성능 비교 &amp;<br></br>시간 절감 가능 항목 추천
               </p>
               <p className="feature-content">
                 내 서버와 타 유명 사이트들의 성능 차이를 비교해보세요.<br></br>
