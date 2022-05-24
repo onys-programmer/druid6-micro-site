@@ -19,7 +19,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="blog" element={<BlogPage />} />
           <Route path="products" element={<HomePage />} />
-          <Route path="docs" element={<DocsPage />} />
+          <Route path="docs/*" element={<DocsPage />} />
         </Routes>
       </ThemeProvider>
     </div>
