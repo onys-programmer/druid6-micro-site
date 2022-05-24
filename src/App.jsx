@@ -5,19 +5,12 @@ import HomePage from "./pages/HomePage";
 import DocsPage from "./pages/DocsPage";
 import BlogPage from "./pages/BlogPage";
 
-import { ThemeProvider, createTheme } from "@mui/material/styles";
+import { ThemeProvider } from "@mui/material/styles";
 import theme from "./utils/colorTheme";
 
 import "./App.css";
 
 function App() {
-  const theme = createTheme({
-    typography: {
-      fontFamily: ["IBMPlexSansKR"].join(","),
-      fontWeightRegular: 600,
-    },
-  });
-
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
