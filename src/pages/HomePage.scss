@@ -25,4 +25,71 @@
     font-size: 3rem;
     color: rgb(3, 102, 3);
   }
+  // 컨텐츠
+  .content {
+    background-color: #eaeaff;
+    font-family: "IBMPlexSansKR";
+  }
+
+  .content-container {
+    width: 970px;
+    margin: 0 auto;
+  }
+  // 장점 3개 소개
+  .advantages {
+    padding-top: 130px;
+    padding-bottom: 70px;
+    display: flex;
+  }
+  .advantage-edge {
+    width: 32.3%;
+    height: 250px;
+    // background-color: #ffffff;
+  }
+  .advantage-middle {
+    width: 32.3%;
+    margin: 0 3%;
+    height: 250px;
+    // background-color: #ffffff;
+  }
+  .advantage-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .advantage-content {
+    word-break: keep-all;
+  }
+  // 서버 모니터링
+  .server-monitoring {
+    display: flex;
+    padding: 70px 0;
+  }
+
+  .images {
+    width: 390px;
+    height: 260px;
+  }
+
+  .feature-info {
+    margin: auto;
+    text-align: left;
+  }
+
+  .feature-name {
+    color: rgb(3, 102, 3);
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .feature-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+  }
+  // 시나리오 테스트
+  .scenario-test {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 50px 0;
+  }
 }
