@@ -4,13 +4,8 @@ import Paper from "@mui/material/Paper";
 import MenuItem from "@mui/material/MenuItem";
 import MenuList from "@mui/material/MenuList";
 import Stack from "@mui/material/Stack";
-import { color } from "@mui/system";
 
 export default function SideBar() {
-  const handleClick = (moveUrl) => {
-    window.location.href = moveUrl;
-  };
-
   return (
     <Stack direction="row" spacing={3}>
       <Paper>
