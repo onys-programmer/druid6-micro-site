@@ -3,6 +3,10 @@ import { createTheme } from '@mui/material/styles';
 import { deepPurple } from "@mui/material/colors";
 
 const theme = createTheme({
+  typography: {
+    fontFamily: ["IBMPlexSansKR"].join(","),
+    fontWeightRegular: 600,
+  },
   palette: {
     primary: {
       light: '#757ce8',
