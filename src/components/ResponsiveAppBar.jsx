@@ -29,7 +29,7 @@ const ResponsiveAppBar = () => {
   const handleCloseNavMenu = (to) => {
     if (to === "repository") {
       console.log("hey");
-      window.location.href = "https://github.com/sdh98429/Druid6";
+      window.location.href = "https://github.com/Druid6/druid6";
     } else {
       navigate(to);
       setAnchorElNav(null);
