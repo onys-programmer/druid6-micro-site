@@ -15,7 +15,7 @@ import MenuItem from "@mui/material/MenuItem";
 import logo from "../static/logo.png";
 import "./AppBar.scss";
 
-const pages = ["products", "docs", "blog"];
+const pages = ["products", "docs", "repository"];
 
 const ResponsiveAppBar = () => {
   const navigate = useNavigate();
@@ -27,8 +27,13 @@ const ResponsiveAppBar = () => {
   };
 
   const handleCloseNavMenu = (to) => {
-    navigate(to);
-    setAnchorElNav(null);
+    if (to === "repository") {
+      console.log("hey");
+      window.location.href = "https://github.com/Druid6/druid6";
+    } else {
+      navigate(to);
+      setAnchorElNav(null);
+    }
   };
 
   return (

@@ -15,7 +15,7 @@
 
 ### **가이드라인**
 
-이 문서는 목적이 다른 여러 섹션으로 나뉘게 됩니다. 문장을 추가할 계획이라면, 적절한 섹션에 대한 [가이드라인](https://github.com/reactjs/reactjs.org/blob/main/CONTRIBUTING.md#guidelines-for-text)을 숙지하는 것이 도움이 될 것입니다.
+이 문서는 목적이 다른 여러 섹션으로 나뉘게 됩니다. 문장을 추가할 계획이라면, 적절한 섹션에 대한 [가이드라인](https://github.com/Druid6/druid6)을 숙지하는 것이 도움이 될 것입니다.
 
 ### **브랜치(branch) 만들기**
 
@@ -39,7 +39,7 @@
 ### **Push 하기**
 
 1. `git add -A && git commit -m "My message"` (`My message` 부분을 `Fix header logo` 같은 커밋 메시지로 교체)를 실행하여 변경한 파일들을 commit 해주세요.
-2. [reactjs.org repo](https://github.com/reactjs/reactjs.org)에서 최근에 푸시된 브랜치를 볼 수 있습니다.
+2. [Druid6 repo](https://github.com/Druid6/druid6)에서 최근에 푸시된 브랜치를 볼 수 있습니다.
 3. Github 지침을 따라주세요.
 4. 가능하다면 시각적으로 변화된 부분의 스크린샷을 첨부해주세요. PR을 만들고 다른사람들이 수정사항을 볼 수 있게되면 자동으로 빌드할 것입니다.
 
@@ -59,12 +59,12 @@ druid6는 정적 및 동적 자원 애플리케이션의 시나리오 시뮬레�
 
 Desktop Application입니다.
 
-다운로드하시려면 [이 곳](https://www.notion.so/1502ff515ea749879beb858d157a836b)을 클릭하세요.
+다운로드하시려면 [이 곳](https://github.com/Druid6/druid6)을 클릭하세요.
 
 ## Tutorials
 
 - 설치하기
-    - 해당 [주소](http://naver/com) 로 접속해 프로젝트를 다운받습니다.
+    - 해당 [주소](https://github.com/Druid6/druid6) 로 접속해 프로젝트를 다운받습니다.
     - `npm install` 또는 `yarn install` 을 이용해 프로젝트 node module들을 설치합니다.
     - `npm run electron:serve` 또는 `yarn electron:serve` 를 이용해 프로젝트를 실행할 수 있습니다.
 - 시작하기
@@ -96,7 +96,7 @@ Desktop Application입니다.
 
 버그를 찾으셨나요? 향상시킬 아이디어가 떠오르셨나요?
 
- [GitHub](https://github.com)에 issue를 만들어주세요
+ [GitHub](https://github.com/Druid6/druid6)에 issue를 만들어주세요
 
 Druid 팀에 메일도 보낼 수 있습니다.
 
