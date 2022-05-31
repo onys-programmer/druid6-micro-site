@@ -15,7 +15,7 @@ Druid6에 기여하고 싶으신가요?
 
 ### **가이드라인**
 
-이 문서는 목적이 다른 여러 섹션으로 나뉘게 됩니다. 문장을 추가할 계획이라면, 적절한 섹션에 대한 [가이드라인](https://github.com/reactjs/reactjs.org/blob/main/CONTRIBUTING.md#guidelines-for-text)을 숙지하는 것이 도움이 될 것입니다.
+이 문서는 목적이 다른 여러 섹션으로 나뉘게 됩니다. 문장을 추가할 계획이라면, 적절한 섹션에 대한 [가이드라인](https://github.com/Druid6/druid6)을 숙지하는 것이 도움이 될 것입니다.
 
 
 
@@ -48,7 +48,7 @@ Druid6에 기여하고 싶으신가요?
 ### **Push 하기**
 
 1. `git add -A && git commit -m "My message"` (`My message` 부분을 `Fix header logo` 같은 커밋 메시지로 교체)를 실행하여 변경한 파일들을 commit 해주세요.
-2. [reactjs.org repo](https://github.com/reactjs/reactjs.org)에서 최근에 푸시된 브랜치를 볼 수 있습니다.
+2. [Druid6 repo](https://github.com/Druid6/druid6)에서 최근에 푸시된 브랜치를 볼 수 있습니다.
 3. Github 지침을 따라주세요.
 4. 가능하다면 시각적으로 변화된 부분의 스크린샷을 첨부해주세요. PR을 만들고 다른사람들이 수정사항을 볼 수 있게되면 자동으로 빌드할 것입니다.
 

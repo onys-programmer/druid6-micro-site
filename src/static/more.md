@@ -4,7 +4,7 @@
 
 #### 버그를 찾으셨나요? 향상시킬 아이디어가 떠오르셨나요?
 
- [GitHub](https://github.com/sdh98429/Druid6)에 issue를 만들어주세요
+ [GitHub](https://github.com/Druid6/druid6)에 issue를 만들어주세요
 
 ###
 
